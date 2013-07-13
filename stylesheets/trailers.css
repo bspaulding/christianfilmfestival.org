@@ -1,0 +1,40 @@
+video {
+  margin: 0px auto;
+  padding: 0px;
+    
+  border: 1px solid black;
+  
+  z-index: 1;
+}
+
+#control_play_pause {
+  margin: 0px auto;
+  padding: 0px;
+  
+  width: 300px;
+  
+  position: absolute;
+  top: 120px;
+  
+  z-index: 2;
+}
+
+#control_play_pause img {
+  margin: 0px auto;
+  padding: 0px;
+  
+  width: 300px;
+  height: 50px;
+}
+
+#wrapper {
+  margin: 0px auto;
+  padding: 0px;
+  
+  width: 720px;
+}
+
+#footer {
+  width: 720px;
+  margin: 20px 0px 0px 0px;
+}

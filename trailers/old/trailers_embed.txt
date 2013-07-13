@@ -1,0 +1,27 @@
+Jerusalem Countdown
+
+<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/tUHu-GYVC8o&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/tUHu-GYVC8o&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></embed></object>
+
+
+
+Cutback
+
+
+<iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/LQEErWqATfE?rel=0" frameborder="0" allowfullscreen></iframe>
+
+or
+
+<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/LQEErWqATfE?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/LQEErWqATfE?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="390"></embed></object>
+
+
+The Encounter
+
+<object style="height: 390px; width: 640px"><param name="movie" value="http://www.youtube.com/v/iMDaERXJfCk?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/iMDaERXJfCk?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390"></object>
+
+The Grace Card
+
+<object width="640" height="360"><param name="movie" value="http://www.youtube.com/v/Lvbwb87FDic?hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/Lvbwb87FDic?hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="360"></embed></object>
+
+The Marriage Retreat
+
+<object width="640" height="360"><param name="movie" value="http://www.youtube.com/v/Lvbwb87FDic?hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/Lvbwb87FDic?hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="360"></embed></object>

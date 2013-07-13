@@ -1,0 +1,448 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url('../images/bg_grad.jpg');
+	background-repeat: repeat-x;
+
+	font-family: Verdana;
+	font-size: 1em;
+
+	behavior: url('stylesheets/csshover3.htc');
+}
+
+a:link, a:visited {
+	color: rgb(52, 52, 52);
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+p.testimony_title {
+  font-weight: bold;
+}
+
+p.testimony_description {
+  line-height: 200%;
+}
+
+p.testimony_link {
+  text-align: right;
+}
+
+#free_admission_tag {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+	width: 200px;
+	height: 200px;
+
+	background-image: url('../images/free_admission_tag.png');
+	background-repeat: no-repeat;
+
+	behavior: url('stylesheets/iepngfix.htc');
+}
+
+#wrapper {
+	width: 850px;
+
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#logo {
+	width: 600px;
+
+	margin: 20px auto;
+	padding: 0px;
+
+	text-align: center;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+#logo_top {
+	font-weight: bold;
+	font-size: 1.7em;
+}
+
+#logo_bottom {
+	width: 300px;
+
+	letter-spacing: 1em;
+	text-align: center;
+
+	margin: 10px auto;
+
+	padding-top: 10px;
+
+	border-top: 1px solid #999999;
+}
+
+#festival_outer_box {
+	width: 850px;
+
+	margin: 20px 0px 0px;
+	padding: 0px;
+
+	float: left;
+	clear: both;
+}
+
+#festival_poster_outer_box {
+	width: 300px;
+	height: 480px;
+
+	margin: 0px;
+	padding: 0px;
+
+	float: left;
+}
+
+#festival_poster_inner_box {
+	width: 300px;
+
+	margin: 0px;
+	padding: 0px;
+
+	border: 1px solid black;
+}
+
+#festival_poster_top {
+	width: 300px;
+	height: 320px;
+
+	margin: 0px;
+	padding: 0px;
+
+	background-image: url('../images/2012-MV-poster/2012-slice1.jpg');
+	background-repeat: no-repeat;
+
+	cursor: pointer;
+}
+
+#festival_poster_bottom {
+	width: 300px;
+	height: 80px;
+
+	margin: 0px;
+	padding: 0px;
+
+	background-image: url('../images/2012-MV-poster/2012-slice4.jpg');
+	background-repeat: no-repeat;
+
+	cursor: pointer;
+}
+
+#festival_poster_bottom:hover {
+	background-image: url('../images/2011_mvcff_poster/Slice-2-Hover.jpg');
+}
+
+#festival_poster_reflection {
+	width: 302px;
+	height: 80px;
+
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+
+	background-image: url('../images/2011_mvcff_poster/Slice-3.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+
+	behavior: url('stylesheets/iepngfix.htc');
+
+	text-align: center;
+	font-style: normal;
+}
+
+#festival_poster_reflection a:link, #festival_poster_reflection a:visited {
+	color: #333333;
+}
+
+#festival_info_outer_box {
+	width: 520px;
+
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+
+	float: left;
+}
+
+.festival_info_title {
+	font-weight: bold;
+	color: rgb(52, 52, 52);
+	font-size: 1.2em;
+}
+
+.festival_info_dates {
+	color: rgb(52, 52, 52);
+	font-size: 0.8em;
+}
+
+#festival_info_map_canvas {
+	width: 296px;
+	height: 198px;
+
+	margin: 20px 20px 0px 0px;
+	padding: 0px;
+
+	float: left;
+
+	border: 1px solid black;
+}
+
+#festival_info_address_box {
+	width: 200px;
+
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+
+	float: left;
+}
+
+#festival_info_address_box a:link, #festival_info_address_box a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+#festival_info_address_box a:hover, #festival_info_address_box a:active {
+	text-decoration: underline;
+}
+
+#festival_info_trailers_outer_box {
+	width: 500px;
+	height: 150px;
+
+	margin: 20px 0px 0px 20px;
+	padding: 0px;
+
+	float: left;
+}
+
+/* Trailer: Sarah's Choice */
+
+#trailer_sarahs_choice {
+	width: 152px;
+	height: 150px;
+
+	margin: 0px;
+	padding: 0px;
+
+	float: left;
+}
+
+#trailer_sarahs_choice_top {
+	width: 152px;
+	height: 100px;
+
+	background-image: url('../images/sarahs_choice_top.jpg');
+	background-repeat: no-repeat;
+
+	border: 1px solid black;
+}
+
+#trailer_sarahs_choice_top:hover {
+  cursor: pointer;
+	background-image: url('../images/sarahs_choice_top_hover.jpg');
+}
+
+#trailer_sarahs_choice_bottom {
+	width: 154px;
+	height: 50px;
+
+	background-image: url('../images/sarahs_choice_bottom.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+
+	behavior: url('stylesheets/iepngfix.htc');
+
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: bold;
+
+	padding: 10px 0px 0px 0px;
+}
+
+/* Trailer: Blink of an Eye */
+
+#trailer_blink_of_an_eye {
+	width: 152px;
+	height: 150px;
+
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+
+	float: left;
+}
+
+#trailer_blink_of_an_eye_top {
+	width: 152px;
+	height: 100px;
+
+	background-image: url('../images/blink_of_an_eye_top.jpg');
+	background-repeat: no-repeat;
+
+	border: 1px solid black;
+}
+
+#trailer_blink_of_an_eye_top:hover {
+  cursor: pointer;
+	background-image: url('../images/blink_of_an_eye_top_hover.jpg');
+}
+
+#trailer_blink_of_an_eye_bottom {
+	width: 154px;
+	height: 50px;
+
+	background-image: url('../images/blink_of_an_eye_bottom.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+
+	behavior: url('stylesheets/iepngfix.htc');
+
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: bold;
+
+	padding: 10px 0px 0px 0px;
+}
+
+#festival_info_trailers_more_trailers {
+	width: 250px;
+	height: 150px;
+
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+
+	float: left;
+}
+
+#festival_info_trailers_more_trailers p {
+	margin: 0px;
+	padding: 0px;
+
+	font-size: 0.9em;
+	line-height: 150%;
+}
+
+#festival_info_trailers_more_trailers a:link, #festival_info_trailers_more_trailers a:visited {
+	color: rgb(52, 52, 52);
+	text-decoration: none;
+}
+
+#festival_info_trailers_more_trailers a:hover, #festival_info_trailers_more_trailers a:active {
+	text-decoration: underline;
+}
+
+#footer {
+	width: 100%;
+  float: left;
+
+	margin: 0px 0px 20px 0px;
+	padding: 20px;
+
+	font-size: 0.7em;
+	text-align: center;
+	color: #999999;
+}
+
+#footer a:link, #footer a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+
+#footer a:hover, #footer a:active {
+	text-decoration: underline;
+}
+
+#navigation_bar {
+	margin: 0px auto;
+	padding: 0px;
+
+	width: 940px;
+	height: 30px;
+}
+
+#navigation_bar a:link, #navigation_bar a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#navigation_bar a:hover, #navigation_bar a:active {
+	text-decoration: none;
+}
+
+#navigation_bar .navigation_item {
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+
+	width: 150px;
+	height: 25px;
+	float: left;
+
+	background-image: url('../images/navbar_item_bg.png');
+	background-repeat: no-repeat;
+
+	text-align: center;
+	color: #FFF;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+#navigation_bar .navigation_item:hover {
+	background-image: url('../images/navbar_item_bg_hover.png');
+	background-repeat: no-repeat;
+
+	cursor: pointer;
+}
+
+#navigation_bar .navigation_item_end_left {
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+
+	width: 170px;
+	height: 25px;
+	float: left;
+
+	background-image: url('../images/navbar_end_left.png');
+	background-repeat: no-repeat;
+
+	text-align: center;
+	color: #FFF;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+#navigation_bar .navigation_item_end_left:hover {
+	background-image: url('../images/navbar_end_left_hover.png');
+	cursor: pointer;
+}
+
+#navigation_bar .navigation_item_end_right {
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+
+	width: 170px;
+	height: 25px;
+	float: left;
+
+	background-image: url('../images/navbar_end_right.png');
+	background-repeat: no-repeat;
+
+	text-align: center;
+	color: #FFF;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+#navigation_bar .navigation_item_end_right:hover {
+	background-image: url('../images/navbar_end_right_hover.png');
+	cursor: pointer;
+}

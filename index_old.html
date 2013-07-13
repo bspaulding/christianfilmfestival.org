@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Christian Film Festivals of America</title>
+<link rel="stylesheet" href="stylesheets/master.css"/>
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAZMfXhv1RXo9zOlk8DWJ7mxTUDPcKo4goeHx_w2ioQGAjtSpk5BTcpuEDWpEPAbFnVTDJTMYTyQJW3g" type="text/javascript"></script>
+<script type="text/javascript" language="JavaScript" src="javascripts/preloader.js"></script>
+<script type="text/javascript" language="JavaScript">
+// Preload Images
+preload([
+  "images/navbar_item_bg_hover.png",
+  "images/2010_boston_poster/Slice-3.png",
+  "images/sarahs_choice_top_hover.jpg",
+  "images/blink_of_an_eye_top_hover.jpg"
+]);
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+var map;
+var address = "565 Squire Rd. Revere, MA";
+var address_lat_lng;
+var geocoder = new GClientGeocoder();
+
+function initialize() {
+	if (GBrowserIsCompatible()) {
+    map = new GMap2(document.getElementById("festival_info_map_canvas"));
+    //map.setMapType(G_HYBRID_MAP);
+    map.setCenter(new GLatLng(37.4419, -122.1419), 13);
+    //map.setUIToDefault();
+    map.disableDragging();
+    
+    showAddress();
+  }
+}
+
+function showAddress() {
+	geocoder.getLatLng(
+    address,
+    function(point) {
+      if (!point) {
+        alert(address + " not found");
+      } else {
+        map.setCenter(point, 14);
+        var marker = new GMarker(point);
+        map.addOverlay(marker);
+        infoWindowOptions = {
+        	maxWidth: 100,
+        	pixelOffset: new GSize(1, 1)
+        };
+        //marker.openInfoWindowHtml('<span style="font-size:0.7em;">' + address + '</span>', infoWindowOptions);
+      }
+    }
+  );
+}
+-->
+</script>
+</head>
+
+<body onload="initialize()" onunload="GUnload()">
+<div id="free_admission_tag"></div>
+
+<div id="logo" onclick="window.location = 'index.html';">
+	<div id="logo_top">Christian Film Festivals</div>
+	<div id="logo_bottom">of America</div>
+</div>
+
+<div id="navigation_bar">
+	<div id="promo_video" class="navigation_item_end_left"><a href="promo_video.html">Promo Video</a></div>
+	<div id="mission" class="navigation_item"><a href="mission.html">Mission</a></div>
+	<div id="testimonies" class="navigation_item"><a href="testimonies/">Testimonies</a></div>
+	<div id="festivals" class="navigation_item"><a href="festivals.html">Festivals</a></div>
+	<div id="references" class="navigation_item"><a href="references.html">References</a></div>
+	<div id="contact" class="navigation_item_end_right"><a href="contact.html">Contact</a></div>
+</div>
+
+<div id="wrapper">
+
+	<div id="festival_outer_box">
+		<div id="festival_poster_outer_box">
+			<div id="festival_poster_inner_box">
+				<div id="festival_poster_top" onclick="window.open('festivals/2010_boston/poster.pdf');"></div>
+				<div id="festival_poster_bottom" onclick="window.open('festivals/2010_boston/schedule.png');"></div>
+			</div>
+			<div id="festival_poster_reflection">
+				<a href="festivals/2011_boston/poster.pdf">Download Printable Poster</a><br/><br/>
+				<a href="festivals/2010_boston/PersonalAppearanceSchedule.pdf" target="_blank">Special Guest Appearance Schedule</a>
+			</div>
+		</div>
+		
+		<div id="festival_info_outer_box">
+			<span class="festival_info_title">Greater Boston Film Festival</span><br/>
+			<span class="festival_info_dates">Thursday, October 14th &#45; Thursday, October 21, 2010</span>
+			<div id="festival_info_map_canvas"></div>
+			<div id="festival_info_address_box">
+				<p>
+					<b>Showcase Cinemas</b><br/><br/>
+					565 Squire Rd<br/>
+					Revere, MA<br/><br/>
+					<a href="http://maps.google.com/maps?client=safari&rls=en&oe=UTF-8&um=1&ie=UTF-8&cid=0,0,2817159189877196654&fb=1&hq=showcase+cinemas&hnear=565+Squire+Rd,+Revere,+MA+02151&gl=us&daddr=565+Squire+Road,+Revere,+MA+02151-1866&geocode=7587238593393286994,42.432284,-71.020426&ei=akSBTMizD4L78Abzn8SIAg&sa=X&oi=local_result&ct=directions-to&resnum=2&ved=0CCUQngIwAQ">Get directions</a><br/><br/>
+					(978) 686-4242
+				</p>
+			</div>
+		</div>
+		
+		<div id="festival_info_trailers_outer_box">
+			<!--<div id="trailer_sarahs_choice">
+				<div id="trailer_sarahs_choice_top" onclick="window.open('trailers/sarahs_choice_trailer.html');"></div>
+				<div id="trailer_sarahs_choice_bottom">Sarah's Choice</div>
+			</div>-->
+			<div id="trailer_blink_of_an_eye">
+				<div id="trailer_blink_of_an_eye_top" onclick="window.open('trailers/blink_of_an_eye_trailer.html');"></div>
+				<div id="trailer_blink_of_an_eye_bottom">Blink of an Eye</div>
+			</div>
+			
+			<div id="festival_info_trailers_more_trailers">
+				<p>
+					<b>More Trailers</b><br/>
+					<!--<a href="#" onclick="window.open('trailers/like_dandelion_dust_trailer.html'); return false;">Like Dandelion Dust</a><br/>-->
+					<a href="#" onclick="window.open('trailers/no_greater_love_trailer.html'); return false;">No Greater Love</a><br/>
+					<a href="#" onclick="window.open('trailers/the_secrets_of_jonathan_sperry_trailer.html'); return false;">The Secrets of Jonathan Sperry</a><br/>
+					<a href="#" onclick="window.open('trailers/what_if_trailer.html'); return false;">What If?</a><br/>
+					<a href="#" onclick="window.open('trailers/holyman_undercover_trailer.html'); return false;">Holyman Undercover</a>
+					<!--<a href="http://www.youtube.com/watch?v=M5lSu6GkC2k" target="_blank">Fireproof</a><br/>-->
+					<!--<a href="http://www.youtube.com/watch?v=zciqppDGzGo" target="_blank">Facing the Giants</a><br/>-->
+					<!--<a href="http://www.wwjdmovie.com/trailer.html" target="_blank">WWJD? The Movie</a><br/>-->
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer">
+	Christian Film Festivals of America, Inc. | Hosting and Design by USAi.net | <a href="Legal.pdf">Legal Notice</a>
+	</div>
+
+</div>
+
+</body>
+</html>
