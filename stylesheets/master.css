@@ -446,3 +446,8 @@ p.testimony_link {
 	background-image: url('../images/navbar_end_right_hover.png');
 	cursor: pointer;
 }
+
+.donate-form input[type="image"] {
+  margin: 0px auto;
+  display: block;
+}
